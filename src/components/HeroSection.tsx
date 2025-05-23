@@ -54,7 +54,7 @@ const HeroSection = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-primary-dark rounded-full opacity-20 blur-2xl"></div>
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary-dark/20 rounded-full blur-md"></div>
               <img 
-                src="/lovable-uploads/041dc80e-30c2-4090-b70d-a83d3df2e701.png" 
+                src="/lovable-uploads/6820730d-b54a-4f4f-94cd-606e52314953.png" 
                 alt="Dra. Mirella Malloci" 
                 className="relative w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl border-4 border-white"
               />
