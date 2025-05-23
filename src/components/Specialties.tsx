@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { WhatsApp } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 const specialties = [
   {
@@ -69,7 +69,7 @@ const Specialties = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
                   >
-                    <WhatsApp className="w-4 h-4" />
+                    <MessageSquare className="w-4 h-4" />
                     Quero saber mais
                   </a>
                 </Button>

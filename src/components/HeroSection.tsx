@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { WhatsApp } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -40,7 +40,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
-                <WhatsApp className="w-6 h-6" />
+                <MessageSquare className="w-6 h-6" />
                 Quero agendar minha consulta
               </a>
             </Button>

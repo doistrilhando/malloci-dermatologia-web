@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { WhatsApp, Instagram } from "lucide-react";
+import { MessageSquare, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -52,7 +52,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-3"
                 >
-                  <WhatsApp className="w-5 h-5" />
+                  <MessageSquare className="w-5 h-5" />
                   WhatsApp
                 </a>
               </Button>
