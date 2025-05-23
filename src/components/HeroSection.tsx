@@ -16,15 +16,18 @@ const HeroSection = () => {
               />
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
-              Dra. Mirella Malloci
-            </h1>
+            <div className="relative">
+              <div className="absolute h-1 w-16 bg-primary left-0 -bottom-4 hidden lg:block"></div>
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+                Dra. Mirella Malloci
+              </h1>
+            </div>
             
-            <h2 className="text-2xl lg:text-3xl text-primary font-medium mb-6">
+            <h2 className="text-2xl lg:text-3xl text-primary font-medium mb-6 mt-8">
               Dermatologia clínica, estética e preventiva
             </h2>
             
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            <p className="text-lg text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
               Cuidar da saúde e beleza da sua pele com excelência, ética e tecnologia. 
               Consultas e tratamentos personalizados com acompanhamento humanizado em 
               um ambiente moderno e acolhedor.
@@ -32,7 +35,7 @@ const HeroSection = () => {
             
             <Button 
               asChild
-              className="bg-primary hover:bg-primary-dark text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105"
+              className="bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105 border-none"
             >
               <a 
                 href="https://wa.me/5513991787870?text=Olá,+quero+agendar+minha+consulta+com+a+Dra.+Mirella"
@@ -49,6 +52,7 @@ const HeroSection = () => {
           <div className="flex justify-center lg:justify-end animate-slide-up">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-primary-dark rounded-full opacity-20 blur-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary-dark/20 rounded-full blur-md"></div>
               <img 
                 src="/lovable-uploads/6820730d-b54a-4f4f-94cd-606e52314953.png" 
                 alt="Dra. Mirella Malloci" 
