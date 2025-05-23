@@ -39,7 +39,7 @@ const AboutDoctor = () => {
             <div className="relative">
               <div className="absolute -inset-2 bg-gradient-to-r from-primary to-primary-dark rounded-xl opacity-10"></div>
               <img 
-                src="/lovable-uploads/6820730d-b54a-4f4f-94cd-606e52314953.png" 
+                src="/lovable-uploads/041dc80e-30c2-4090-b70d-a83d3df2e701.png" 
                 alt="Dra. Mirella Malloci - Consultório" 
                 className="relative w-full max-w-md rounded-xl shadow-lg"
               />
