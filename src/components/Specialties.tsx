@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { MessageSquare, Shield, Sparkles, Droplet, Heart, Microscope } from "lucide-react";
+import { MessageSquare, Shield, Sparkles, Droplet, Heart, Microscope, Zap } from "lucide-react";
 
 const specialties = [
   {
@@ -28,6 +28,11 @@ const specialties = [
     title: "Dermatologia preventiva e diagnóstica",
     description: "Avaliação completa da pele com foco na prevenção e diagnóstico precoce",
     icon: Microscope
+  },
+  {
+    title: "Tratamentos a laser",
+    description: "Tecnologias avançadas a laser para rejuvenescimento, remoção de manchas e cicatrizes",
+    icon: Zap
   }
 ];
 

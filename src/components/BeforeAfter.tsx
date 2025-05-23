@@ -4,18 +4,18 @@ import { Button } from "@/components/ui/button";
 
 const beforeAfterImages = [
   {
-    before: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
+    before: "https://images.unsplash.com/photo-1513165533842-511ed567ade7?w=400&h=300&fit=crop",
     after: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=300&fit=crop",
     title: "Tratamento de Melasma"
   },
   {
-    before: "https://images.unsplash.com/photo-1594824209347-d2ad5b5a5a8e?w=400&h=300&fit=crop",
-    after: "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?w=400&h=300&fit=crop",
+    before: "https://images.unsplash.com/photo-1581182580551-1e68c96965e0?w=400&h=300&fit=crop",
+    after: "https://images.unsplash.com/photo-1570612861542-284f4c12e75f?w=400&h=300&fit=crop",
     title: "Rejuvenescimento Facial"
   },
   {
-    before: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=300&fit=crop",
-    after: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=300&fit=crop",
+    before: "https://images.unsplash.com/photo-1632335252321-9760ab76c576?w=400&h=300&fit=crop",
+    after: "https://images.unsplash.com/photo-1566958769312-82cef41d19ef?w=400&h=300&fit=crop",
     title: "Tratamento de Acne"
   }
 ];
