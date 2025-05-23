@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { MessageSquare, Instagram, MapPin, Phone, Mail, Clock } from "lucide-react";
 const Footer = () => {
@@ -78,7 +79,7 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-6">Redes Sociais</h4>
             <div className="space-y-4">
-              <Button asChild className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white transition-all duration-300 border-none">
+              <Button asChild variant="outline" className="w-full border-green-500 text-green-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-green-600 hover:text-white transition-all duration-300">
                 <a href="https://wa.me/5513991787870" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
                   <MessageSquare className="w-5 h-5" />
                   WhatsApp
